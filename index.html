@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- NORMALIZER -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Web Studio Project - VeroVH</title>
+  </head>
+
+  <body class="list-style-none">
+    <header class="header-border main-container">
+      <div class="container flex-container">
+        <div class="topmenu">
+          <!-- Banner superior navegacion -->
+          <a href="#" class="logo-link">WebStudio</a>
+
+          <nav class="text-basic-color toplinks-container">
+            <ul class="toplinks">
+              <li class="toplinks-current">
+                <a href="#" target="_self">Studio</a>
+              </li>
+              <li><a href="./portfolio.html" target="_self">Portfolio</a></li>
+              <li><a href="./contacts">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="address-toplinks">
+            <li class="address-links ">
+              <a href="mailto:info@devstudio.com">
+                <svg class="icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope">  </use>
+                </svg>
+                <span>info@devstudio.com</span>
+              </a>
+            </li>
+            <li class="address-links ">
+              <a href="Tel:+380961111111">
+                <svg class="icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                  <span>+1 212-772-4150</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container banner-top-title">
+        <div class="container flex-container ">
+          <section class="banner-top-button">
+            <h1 class="banner-item">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+            <button type="button" class="button-cursor banner-button">Request our service</button>
+          </section>
+        </div>
+      </div>
+
+        <!-- SECTION HOW WE DO IT (titles and descriptions)-->
+      <div class="main-container">
+        <section class="howwedoit container flex-container">
+            <ul class="howwedoit-items-container">
+              <li class="howwedoit-items">
+                <div class="howwedoit-icons">
+                  <a>
+                    <svg width="70" height="70">
+                      <use href="./images/icons.svg#icon-howwedoit_antenna"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="howwedoit-title">ATTENTION TO DETAILS</h3>
+                <p class="descriptive-text">
+                  We go into all the details and processes of your business to
+                  develop a customized solution.
+                </p>
+              </li>
+              <li class="howwedoit-items">
+                <div class="howwedoit-icons">
+                  <a>
+                    <svg width="70" height="70">
+                      <use href="./images/icons.svg#icon-howwedoit_clock"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="howwedoit-title">PUNCTUALITY</h3>
+                <p class="descriptive-text">
+                  With us, you can feel safe and secure. An important principle of
+                  the company: respect your time and respect the agreed deadlines.
+                </p>
+              </li>
+              <li class="howwedoit-items">
+                <div class="howwedoit-icons">
+                  <a>
+                    <svg width="70" height="70">
+                      <use href="./images/icons.svg#icon-howwedoit_diagram"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="howwedoit-title">PLANNING</h3>
+                <p class="descriptive-text">
+                  You will be able to observe and participate in every phase of
+                  solution development and implementation.
+                </p>
+              </li>
+              <li class="howwedoit-items">
+                <div class="howwedoit-icons">
+                  <a>
+                    <svg width="70" height="70">
+                      <use href="./images/icons.svg#icon-howwedoit_astronaut"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="howwedoit-title">MODERN TECHNOLOGIES</h3>
+                <p class="descriptive-text">
+                  We use innovative tools to solve assigned tasks. It's time to
+                  simplify work processes.
+                </p>
+              </li>
+            </ul>
+        </section>
+      </div>
+
+        <!-- SECTION WHAT WE DO (Only images) -->
+      <div class=" flex-container">
+        <section class="whatwedo container">
+            <h2 class="main-titles">What we do</h2>
+            <ul class="whatwedo-img">
+              <li>
+                <!-- <div class="whatwedo-img-container"> -->
+                  <img src="images/whatwedo1.jpg" alt="Writting code" />
+                  <div class="whatwedo-overlay-text">DESKTOP APPS</div>
+                <!-- </div> -->
+              </li>
+              <li>
+                <!-- <div class="whatwedo-img-container"> -->
+                  <img src="images/whatwedo2.jpg" alt="Designing interface" />
+                  <div class="whatwedo-overlay-text">MOBILE APPS</div>
+                <!-- </div> -->
+              </li>
+              <li>
+                <img src="images/whatwedo3.jpg" alt="Choosing colors" />
+                <div class="whatwedo-overlay-text">DESIGN SOLUTIONS</div>
+              </li>
+            </ul>
+        </section>
+      </div>
+
+        <!-- Section WHO WE ARE (cards with pics and captions) -->
+        <section class="whoweare flex-container">
+          <div class="container">
+            <h2 class="main-titles">Our Team</h2>
+            <ul class="whoweare-img-container">
+              <!-- CARD #1 -->
+              <li class="whoweare-img-card">
+                <img
+                  src="./images/whoweare1.jpg"
+                  alt="Christopher Walker"
+                  class="whoweare-img"
+                />
+                <h3 class="whoweare-names">Christopher Walker</h3>
+                <p class="whoweare-career">Product Designer</p>
+                <!-- Iconos redes sociales -->
+                <div class="whoweare-icon-list">
+                  <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram" ></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>   
+                  </div>  
+              </li>
+              <!-- CARD #2 -->
+              <li class="whoweare-img-card">
+                <img
+                  src="./images/whoweare2.jpg"
+                  alt="Kylie Evans"
+                  class="whoweare-img"
+                />
+                <h3 class="whoweare-names">Kylie Evans</h3>
+                <p class="whoweare-career">Frontend Developer</p>
+                <!-- Iconos redes sociales -->
+                <div class="whoweare-icon-list">
+                  <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram" ></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>   
+                  </div>  
+              </li>
+              <!-- CARD #3 -->
+              <li class="whoweare-img-card">
+                <img
+                  src="./images/whoweare3.jpg"
+                  alt="Ryan Harris"
+                  class="whoweare-img"
+                />
+                <h3 class="whoweare-names">Ryan Harris</h3>
+                <p class="whoweare-career">Marketing</p>
+                <!-- Iconos redes sociales -->
+                <div class="whoweare-icon-list">
+                  <div class="whoweare-icon-container">
+                      <svg width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram" ></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>   
+                  </div>  
+              </li>
+              <!-- CARD #4 -->
+              <li class="whoweare-img-card">
+                <img
+                  src="./images/whoweare4.jpg"
+                  alt="Tyler Moore"
+                  class="whoweare-img"
+                />
+                <h3 class="whoweare-names">Tyler Moore</h3>
+                <p class="whoweare-career">UI Designer</p>
+                <!-- Iconos redes sociales -->
+                <div class="whoweare-icon-list">
+                  <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-instagram" ></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </div>
+                    <div class="whoweare-icon-container">
+                      <svg class="whoweare-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </div>   
+                  </div>  
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section CLIENTS (only tittle and svgs) -->
+        <section class="clients flex-container">
+          <div class="container">
+            <h2 class="main-titles">Regular Customers</h2>
+            <div class="clients-list">
+              <div class="clients-container">
+                <svg width="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Client_1" ></use>
+                </svg>
+              </div>
+              <div class="clients-container">
+                <svg width="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Client_2" ></use>
+                </svg>
+              </div>
+              <div class="clients-container"> 
+                <svg width="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Client_3" ></use>
+                </svg>
+              </div>
+              <div class="clients-container">
+                <svg width="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Client_4" ></use>
+                </svg>
+              </div>
+              <div class="clients-container">
+                <svg width="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Client_5" ></use>
+                </svg>
+              </div>
+              <div class="clients-container">
+                <svg width="106px" height="60px">
+                  <use href="./images/icons.svg#icon-Client_6" ></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+    </main>
+    <footer class="banner-footer ">
+        <section class="footer-container container">
+          <div class="footer-container-address">
+            <a href="#" class="logo-link footer-item">WebStudio</a>
+            <address class="address-text">
+              <ul class="footer-item">
+                <li>695 Park Ave, New York, NY 10065,</li>
+                <li>United States.</li>
+                <li class="address-links"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-links"><a href="tel:+12127724150">+1 212-772-4150</a></li>
+             </ul>
+            </address>
+          </div>
+          <div class="footer-container-social">
+            <h3>FIND US ON</h3>
+            <div>
+              <ul>
+                <li class="footer-social-icons">
+                  <svg class="footer-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-instagram" ></use>
+                  </svg>
+                </li>
+                <li class="footer-social-icons">
+                  <svg class="footer-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="footer-social-icons">
+                  <svg class="footer-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="footer-social-icons">
+                  <svg class="footer-icon" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>   
+            </div>    
+          </div>  
+        </section>
+    </footer>
+  </body>
+</html>

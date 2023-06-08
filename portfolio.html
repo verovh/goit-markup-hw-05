@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- NORMALIZER -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLE SHEETS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body class="list-style-none">
+    <header class="header-border main-container">
+      <div class="container flex-container">
+        <div class="topmenu">
+          <!-- Banner superior navegacion -->
+          <a href="#" class="logo-link">WebStudio</a>
+
+          <nav class="text-basic-color toplinks-container">
+            <ul class="toplinks">
+              <li><a href="./index.html" target="_self">Studio</a></li>
+              <li class="toplinks-current">
+                <a href="#" target="_self">Portfolio</a>
+              </li>
+              <li><a href="./contacts">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="address-toplinks">
+            <li class="address-links ">
+              <a href="mailto:info@devstudio.com">
+                <svg class="icon" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope">  </use>
+                </svg>
+                <span>info@devstudio.com</span>
+              </a>
+            </li>
+            <li class="address-links ">
+              <a href="Tel:+380961111111">
+                <svg class="icon" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                  <span>+1 212-772-4150</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1 hidden>Portfolio</h1>
+      <!-- BOTONES FILTRO -->
+      <section class="flex-container">
+        <div class="portfolio-container container">
+          <ul class="portfolio-button">
+            <li><button type="button" class="portfolio-button-item">All</button></li>
+            <li><button type="button" class="portfolio-button-item">Web-sites</button></li>
+            <li><button type="button" class="portfolio-button-item">Apps</button></li>
+            <li><button type="button" class="portfolio-button-item">Design</button></li>
+            <li><button type="button" class="portfolio-button-item">Marketing</button></li>
+          </ul>
+          <!-- TARJETAS  -->
+          <ul class="portfolio-cards">
+            
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-duck.jpg"
+                  alt="Webpage layout"
+                  class="portfolio-img"/>
+                <div class="portfolio-container-overlay">
+                 Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">Technoduck</h3>
+                <p class="portfolio-item-filter">Web-site</p>
+              </div>            
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-poster.jpg"
+                  alt="Basketball poster"
+                  class="portfolio-img"
+                />
+                <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">
+                  Poster New Orlean vs Golden Star
+                </h3>
+                <p class="portfolio-item-filter">Design</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-seafood.jpg"
+                  alt="Logo of a restaurant"
+                  class="portfolio-img"
+                />
+                <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">Seafood Restaurant</h3>
+                <p class="portfolio-item-filter">Apps</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-p-prime.jpg"
+                  alt="Headphones"
+                  class="portfolio-img"
+                />
+                <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">Project Prime</h3>
+               <p class="portfolio-item-filter">Marketing</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-p-boxes.jpg"
+                  alt="Two boxes"
+                  class="portfolio-img"
+                />
+               <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+               </div>
+              </div>
+              <div class="portfolio-container-text">
+               <h3 class="portfolio-item-title">Project Boxes</h3>
+                <p class="portfolio-item-filter">Apps</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-inspiration.jpg"
+                  alt="Screen"
+                  class="portfolio-img"
+                />
+                <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">Inspiration has no Borders</h3>
+                <p class="portfolio-item-filter">Web-site</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-limited.jpg"
+                  alt="Open book"
+                  class="portfolio-img"
+                />
+                <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">Limited Edition</h3>
+                <p class="portfolio-item-filter">Design</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-lab.jpg"
+                  alt="A white label"
+                  class="portfolio-img"
+                />
+                <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">Project LAB</h3>
+                <p class="portfolio-item-filter">Marketing</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card-item">
+              <div class="card-overflow">
+                <img
+                  src="./images/portfolio-growing.jpg"
+                  alt="Someone typing on laptop"
+                  class="portfolio-img"
+                />
+                <div class="portfolio-container-overlay">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam totam ducimus, molestias sapiente, expedita quis repellat, perferendis quos tenetur qui modi.
+                </div>
+              </div>
+              <div class="portfolio-container-text">
+                <h3 class="portfolio-item-title">Growing Business</h3>
+                <p class="portfolio-item-filter">Apps</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="banner-footer ">
+      <section class="footer-container container">
+        <div class="footer-container-address">
+          <a href="#" class="logo-link footer-item">WebStudio</a>
+          <address class="address-text">
+            <ul class="footer-item">
+              <li>695 Park Ave, New York, NY 10065,</li>
+              <li>United States.</li>
+              <li class="address-links"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li class="address-links"><a href="tel:+12127724150">+1 212-772-4150</a></li>
+           </ul>
+          </address>
+        </div>
+        <div class="footer-container-social">
+          <h3>FIND US ON</h3>
+          <div>
+            <ul>
+              <li class="footer-social-icons">
+                <svg class="footer-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-instagram" ></use>
+                </svg>
+              </li>
+              <li class="footer-social-icons">
+                <svg class="footer-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </li>
+              <li class="footer-social-icons">
+                <svg class="footer-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </li>
+              <li class="footer-social-icons">
+                <svg class="footer-icon" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </li>
+            </ul>   
+          </div>    
+        </div>  
+      </section>
+    </footer>
+  </body>
+</html>
