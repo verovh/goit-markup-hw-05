@@ -66,7 +66,19 @@
         <div class="container flex-container ">
           <section class="banner-top-button">
             <h1 class="banner-item">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button type="button" class="button-cursor banner-button">Request our service</button>
+            <button type="button" class="button-cursor banner-button" data-modal-open>Request our service</button>
+          
+            <!-- MODAL WINDOW -->
+            <div class="backdrop is-hidden" data-modal>
+              <div class="modal">
+                <span class="close-modal" data-modal-close>
+                  <svg width="11" height="11">
+                    <use href="./images/icons.svg#VectorX"></use>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          
           </section>    
         </div>
       </div>
