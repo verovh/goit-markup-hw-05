@@ -271,8 +271,8 @@ body{
 
 .close-modal{
     position: absolute;
-    top: 7px;
-    right: 7px;
+    top: 8px;
+    right: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -712,7 +712,7 @@ body{
 
 .portfolio-card-item:hover .portfolio-container-overlay{   
     transform: translateY(-100%);
-    transition: translateY 250ms var(--cubic);
+    transition: transform 250ms var(--cubic);
 }
 
 .portfolio-container-text{
